@@ -12,7 +12,7 @@ if b != 0:
     denklem += f" + {b}x" if b > 0 else f" - {abs(b)}x"
 if c != 0:
     denklem += f" + {c}" if c > 0 else f" - {abs(c)}"
-
+denklem += " = 0"
 st.write(f"Girilen denklem: {denklem}")
 
 delta = b**2 - 4*a*c
